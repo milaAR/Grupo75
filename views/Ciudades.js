@@ -1,11 +1,11 @@
-import react from 'react';
+import React from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
 
 const Ciudades= () => {
     return (
 
-        <Texto>Desde Ciudades</Texto>
+        <Text>Desde Ciudades</Text>
 
     );
 }

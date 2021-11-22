@@ -1,6 +1,8 @@
-import react from 'react';
-import {Text, StyleSheet, View, Button} from 'react-native';
+import React from 'react';
+import {Text, StyleSheet, View,} from 'react-native';
 
+//import ui
+import {Button} from 'react-native-paper';
 
 const Inicio = ({navigation, route}) => {
 
@@ -15,15 +17,16 @@ const Inicio = ({navigation, route}) => {
 
     return (
         <View>
-            <Texto>Desde Inicio</Texto>
-            <Button
-                title= 'Mis ciudades'
+            <Text>Desde Inicio</Text>
+            <Button 
+                mode= 'contained'
                 onPress= {()=> visitarCiudades()}
-            />
+            >Mis ciudades
+            </Button>
             <Button
-                title='Ir a Nosotros'
+                mode= 'text'
                 onPress={ () => visitarNosotros()}
-            />
+            >Ir a Nosotros</Button>
         </View>
     );
 }
