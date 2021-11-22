@@ -52,7 +52,9 @@ En tu proyecto deberás cubrir las siguientes funcionalidades:
 
 7.2. Elabora un documento README en el repositorio que explique claramente los pasos necesarios para ejecutar el proyecto en otro equipo (librerías necesarias, comandos para ejecutar).
 
-7.3. Añade al README tu Paper prototyping y el Persona Canvas (imágen o video) 7.4. Tu proyecto deberá contar con al menos dos Branch (ramas) diferentes. El resultado final deberá encontrarse en la rama **master.**
+7.3. Añade al README tu Paper prototyping y el Persona Canvas (imágen o video) 
+
+7.4. Tu proyecto deberá contar con al menos dos Branch (ramas) diferentes. El resultado final deberá encontrarse en la rama **master.**
 
 7.5. Documenta el código fuente del proyecto, explicando el propósito de las clases y funciones más importantes.
 
