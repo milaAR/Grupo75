@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import {Text, StyleSheet, View, Button} from 'react-native';
 
 
@@ -15,7 +15,7 @@ const Inicio = ({navigation, route}) => {
 
     return (
         <View>
-            <Texto>Desde Inicio</Texto>
+            <Text>Desde Inicio</Text>
             <Button
                 title= 'Mis ciudades'
                 onPress= {()=> visitarCiudades()}

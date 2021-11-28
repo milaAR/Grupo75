@@ -1,12 +1,21 @@
-import react from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import React from 'react';
+import {Text, StyleSheet, View,Button} from 'react-native';
 
 
-const Ciudades= () => {
+const Ciudades= ({navigation, route}) => {
+
+    const visitarNuevaCiudad = () =>{
+        navigation.navigate('NuevaCiudad')
+    }
     return (
-
-        <Texto>Desde Ciudades</Texto>
-
+        <View>
+            <Text>Desde Ciudades</Text> 
+            <Button
+                title='Añadir nueva ciudad'
+                onPress={ () => visitarNuevaCiudad()}
+            />
+        </View>
+        
     );
 }
 

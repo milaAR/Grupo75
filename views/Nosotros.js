@@ -1,13 +1,21 @@
-import react from 'react';
+import React from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
 
 const Nosotros = () => {
     return (
+        <View>
 
-        <Texto>Desde Nosotros</Texto>
+        <Text style={styles.text}>Creadores</Text>
+        <Text style={styles.text}>GitHub Repo</Text>
 
+        </View>
     );
 }
+const styles = StyleSheet.create({
+    text:{
+        textAlign:'center',
+    }
+})
 
 export default Nosotros;

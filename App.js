@@ -11,6 +11,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Inicio from './views/Inicio';
 import Ciudades from './views/Ciudades';
 import Nosotros from './views/Nosotros';
+import NuevaCiudad from './views/NuevaCiudad';
+import Mapa from './views/Mapa';
+
 
 
 const Stack = createStackNavigator();
@@ -19,7 +22,7 @@ const App = () => {
 
 
   return (
-    <View>
+    <>
       <NavigationContainer>
       <Stack.Navigator
         initialRouteName='Inicio'
@@ -36,10 +39,18 @@ const App = () => {
           name='Nosotros'
           component = {Nosotros}
         />
+         <Stack.Screen 
+          name='NuevaCiudad'
+          component = {NuevaCiudad}
+        />
+        <Stack.Screen 
+          name='Mapa'
+          component = {Mapa}
+        />
       </Stack.Navigator>
       </NavigationContainer>
 
-    </View>
+    </>
   );
 };
 

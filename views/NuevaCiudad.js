@@ -1,8 +1,11 @@
 import React from 'react';
-import {Text, StyleSheet, View,TextInput,TouchableHighlight} from 'react-native';
+import {Text, StyleSheet, View,TextInput,TouchableHighlight,Button} from 'react-native';
 
 
-const NuevaCiudad = () => {
+const NuevaCiudad = ({navigation,route}) => {
+    const visitarMapa = () =>{
+        navigation.navigate('Mapa')
+    }
     return (
         //añadir componente formulario o crear formulario aqui
         <>
@@ -11,6 +14,10 @@ const NuevaCiudad = () => {
         <TouchableHighlight>
             <Text>Añadir</Text>
         </TouchableHighlight>
+        <Button
+            title='Ver en Mapa'
+            onPress={()=>visitarMapa()}
+        />
         </>
        
     );
