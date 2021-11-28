@@ -1642,6 +1642,11 @@
   "resolved" "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz"
   "version" "2.0.6"
 
+"assertion-error@1.0.0":
+  "integrity" "sha1-x/hUOP3UZrx8oWq5DIFRN5el0js="
+  "resolved" "https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz"
+  "version" "1.0.0"
+
 "assign-symbols@^1.0.0":
   "integrity" "sha1-WWZ/QfrdTyDMvCu5a41Pf3jsA2c="
   "resolved" "https://registry.npmjs.org/assign-symbols/-/assign-symbols-1.0.0.tgz"
@@ -4517,6 +4522,11 @@
   dependencies:
     "object-visit" "^1.0.0"
 
+"merge-recursive@0.0.3":
+  "integrity" "sha1-3nkB78rsyQbYyrKtHpxHD1o9roQ="
+  "resolved" "https://registry.npmjs.org/merge-recursive/-/merge-recursive-0.0.3.tgz"
+  "version" "0.0.3"
+
 "merge-stream@^2.0.0":
   "integrity" "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w=="
   "resolved" "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz"
@@ -5056,6 +5066,13 @@
   "integrity" "sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ=="
   "resolved" "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz"
   "version" "2.2.0"
+
+"oath@latest":
+  "integrity" "sha1-L04fd5e5A6eLJDUn3GgkWwrrDVg="
+  "resolved" "https://registry.npmjs.org/oath/-/oath-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "simple-assert" "~1.0.0"
 
 "ob1@0.66.2":
   "integrity" "sha512-RFewnL/RjE0qQBOuM+2bbY96zmJPIge/aDtsiDbLSb+MOiK8CReAhBHDgL+zrA3F1hQk00lMWpUwYcep750plA=="
@@ -5949,6 +5966,13 @@
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
 
+"sechash@~0.2.1":
+  "integrity" "sha1-i3H+R9aCcvR6NfFkDkzJITJbEzs="
+  "resolved" "https://registry.npmjs.org/sechash/-/sechash-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "oath" "latest"
+
 "semver@^5.5.0":
   "integrity" "sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ=="
   "resolved" "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
@@ -6098,6 +6122,14 @@
   "resolved" "https://registry.npmjs.org/shellwords/-/shellwords-0.1.1.tgz"
   "version" "0.1.1"
 
+"short-id@^0.1.0-1":
+  "integrity" "sha1-pMDzU3//RiP/hJZIgrXUMBmiQJU="
+  "resolved" "https://registry.npmjs.org/short-id/-/short-id-0.1.0-1.tgz"
+  "version" "0.1.0-1"
+  dependencies:
+    "merge-recursive" "0.0.3"
+    "sechash" "~0.2.1"
+
 "side-channel@^1.0.4":
   "integrity" "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw=="
   "resolved" "https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz"
@@ -6111,6 +6143,13 @@
   "integrity" "sha512-KWcOiKeQj6ZyXx7zq4YxSMgHRlod4czeBQZrPb8OKcohcqAXShm7E20kEMle9WBt26hFcAf0qLOcp5zmY7kOqQ=="
   "resolved" "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.5.tgz"
   "version" "3.0.5"
+
+"simple-assert@~1.0.0":
+  "integrity" "sha1-U/F5AADXFEJBJCkHgLwqPlEc8O8="
+  "resolved" "https://registry.npmjs.org/simple-assert/-/simple-assert-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "assertion-error" "1.0.0"
 
 "simple-plist@^1.0.0":
   "integrity" "sha512-uYWpeGFtZtVt2NhG4AHgpwx323zxD85x42heMJBan1qAiqqozIlaGrwrEt6kRjXWRWIXsuV1VLCvVmZan2B5dg=="

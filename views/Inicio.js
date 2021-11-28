@@ -3,9 +3,6 @@ import React from 'react';
 import {Text, StyleSheet, View, Button} from 'react-native';
 
 
-//import ui
-import {Button} from 'react-native-paper';
-
 const Inicio = ({navigation, route}) => {
 
     const visitarNosotros = () =>{
@@ -24,11 +21,11 @@ const Inicio = ({navigation, route}) => {
                 title= 'Mis ciudades'
 
                 onPress= {()=> visitarCiudades()}
-            >Mis ciudades
-            </Button>
+            />
             <Button
+                title= 'Ir a Nosotros'
                 onPress={ () => visitarNosotros()}
-            >Ir a Nosotros</Button>
+            />
         </View>
     );
 }
