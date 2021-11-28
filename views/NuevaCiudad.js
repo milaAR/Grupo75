@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {Text, StyleSheet, View,TextInput,TouchableHighlight,Button} from 'react-native';
 
@@ -18,6 +19,7 @@ const NuevaCiudad = ({navigation,route}) => {
             title='Ver en Mapa'
             onPress={()=>visitarMapa()}
         />
+
         </>
        
     );
