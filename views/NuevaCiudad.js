@@ -1,36 +1,25 @@
-import React,{useState}from 'react';
-import {Text, StyleSheet, View,TextInput,TouchableWhithoutFeedback} from 'react-native';
+
+import React from 'react';
+import {Text, StyleSheet, View,TextInput,TouchableHighlight,Button} from 'react-native';
 
 
-const NuevaCiudad = () => {
-
-    const [busqueda, guardarBusqueda]=useState({
-        ciudad='',
-        pais=''
-    })
-
+const NuevaCiudad = ({navigation,route}) => {
+    const visitarMapa = () =>{
+        navigation.navigate('Mapa')
+    }
     return (
         //añadir componente formulario o crear formulario aqui
         <>
-            <View>
-                <View>
-                    <TextInput 
-                    placeholder="Pais"
-                    onChangeText={pais => guardarBusqueda({...busqueda,pais})}
-                    value={pais}/>
-                </View>
-            <View>
-                <TextInput 
-                placeholder="Ciudad"
-                onChangeText={ciudad => guardarBusqueda({...busqueda,ciudad})}
-                value={ciudad}/>
-            </View>
-            <TouchableWhithoutFeedback>
-                <View>
-                    <Text>Añadir</Text>
-                </View>
-            </TouchableWhithoutFeedback>
-            </View>
+        <TextInput>Pais</TextInput>
+        <TextInput>Ciudad</TextInput>
+        <TouchableHighlight>
+            <Text>Añadir</Text>
+        </TouchableHighlight>
+        <Button
+            title='Ver en Mapa'
+            onPress={()=>visitarMapa()}
+        />
+
         </>
        
     );
