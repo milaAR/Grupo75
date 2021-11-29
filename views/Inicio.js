@@ -1,10 +1,8 @@
 import React from 'react';
 import {Text, StyleSheet, View} from 'react-native';
 
-//import ui
-import {Button} from 'react-native-paper';
-
 const Inicio = ({navigation, route}) => {
+<<<<<<< HEAD
   const visitarNosotros = () => {
     navigation.navigate('Nosotros');
   };
@@ -27,3 +25,36 @@ const Inicio = ({navigation, route}) => {
 const styles = StyleSheet.create({});
 
 export default Inicio;
+=======
+
+    const visitarNosotros = () =>{
+        navigation.navigate('Nosotros')
+    }
+
+    const visitarCiudades = () =>{
+        navigation.navigate('Ciudades')
+    }
+
+
+    return (
+        <View>
+            <Text>Desde Inicio</Text>
+            <Button
+                title= 'Mis ciudades'
+
+                onPress= {()=> visitarCiudades()}
+            />
+            <Button
+                title= 'Ir a Nosotros'
+                onPress={ () => visitarNosotros()}
+            />
+        </View>
+    );
+}
+
+const styles = StyleSheet.create({
+    
+})
+
+export default Inicio;
+>>>>>>> wheather-api
