@@ -7,7 +7,7 @@ A. Ver [Consigna](Consigna.md)
 B. Pasos necesarios para ejecutar el proyecto en otro equipo (librerías necesarias, comandos para ejecutar).
 
 0) Asegurese de tener instalado el entorno de desarrollo apropiado de acuerdo a su plataforma (Windows, Mac o Linux) segun las
-[intrucciones provistas en la documentacion de React Native](https://reactnative.dev/docs/environment-setup), en especial la concerniente a **React Native CLI**.
+[instrucciones provistas en la documentacion de React Native](https://reactnative.dev/docs/environment-setup), en especial la concerniente a **React Native CLI**.
 
 1) Abrir una terminal y clonar este repositorio.
 
