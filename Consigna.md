@@ -6,15 +6,15 @@ Proyecto grupal: aplicación para celular sobre el clima
 
 Descripción:
 
-Paula es vendedora de helados. Inicialmente, comenzó a vender helados a nivel local en una playaubicada a 1 hora de la ciudad.
+Paula es vendedora de helados. Inicialmente, comenzó a vender helados a nivel local en una playa ubicada a 1 hora de la ciudad.
 
-¡Después de 10 años de ventas, su negocio prosperó y finalmente pudo expandirlo! Con un helado muyfamoso, hoy vende helados en 10 playas de la costa.
+¡Después de 10 años de ventas, su negocio prosperó y finalmente pudo expandirlo! Con un helado muy famoso, hoy vende helados en 10 playas de la costa.
 
-Para cubrir la demanda y gestionar su producción correctamente Paula necesita estar al tanto de unelemento que hasta entonces no le había preocupado: **El clima.**
+Para cubrir la demanda y gestionar su producción correctamente Paula necesita estar al tanto de un elemento que hasta entonces no le había preocupado: **El clima.**
 
-Con tantos sitios diferentes para venderlos ¿Puede considerar el mismo clima? Hay días que llueve enalgunos sitios… ¡Hay otros en los que hace sol todo el tiempo! **¿Cómo ayudar a Paula?**
+Con tantos sitios diferentes para venderlos ¿Puede considerar el mismo clima? Hay días que llueve en algunos sitios… ¡Hay otros en los que hace sol todo el tiempo! **¿Cómo ayudar a Paula?**
 
-En ese proyecto, deberás generar una aplicación que consuma un servicio del clima y permita agregarciudades a un listado. Esta información deberá ser visualizada en un mapa. Cuando el usuario seleccioneuna ciudad se deberá desplegar la temperatura del lugar.
+En ese proyecto, deberás generar una aplicación que consuma un servicio del clima y permita agregar ciudades a un listado. Esta información deberá ser visualizada en un mapa. Cuando el usuario seleccione una ciudad se deberá desplegar la temperatura del lugar.
 
 Requerimientos del proyecto:
 
@@ -26,7 +26,8 @@ En tu proyecto deberás cubrir las siguientes funcionalidades:
 
 **2. Listado de ciudades.**
 
-2.1. Un listado que guarde las ciudades que Paula seleccione para producir los helados. 2.2. Deberá contar con un buscador que permita filtrar y buscar ciudades específicas.
+2.1. Un listado que guarde las ciudades que Paula seleccione para producir los helados.
+2.2. Deberá contar con un buscador que permita filtrar y buscar ciudades específicas.
 
 **3. Modificar el listado de ciudades**
 

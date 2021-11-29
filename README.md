@@ -6,6 +6,9 @@ A. Ver [Consigna](Consigna.md)
 
 B. Pasos necesarios para ejecutar el proyecto en otro equipo (librerías necesarias, comandos para ejecutar).
 
+0) Asegurese de tener instalado el entorno de desarrollo apropiado de acuerdo a su plataforma (Windows, Mac o Linux) segun las
+[intrucciones provistas en la documentacion de React Native](https://reactnative.dev/docs/environment-setup), en especial la concerniente a **React Native CLI**.
+
 1) Abrir una terminal y clonar este repositorio.
 
 	**git clone https://github.com/milaAR/Grupo75.git**
@@ -42,8 +45,8 @@ B. Pasos necesarios para ejecutar el proyecto en otro equipo (librerías necesar
 
 C. Paper prototyping y el Persona Canvas (imagen o video)
 
+[Espacio para paper prototype](about:blank)
 
-	Espacio para paper prototype
-	**Prototipo en Figma:**https://www.figma.com/community/file/1046957896877614265/MELT-APP
+**Prototipo en Figma**: [Acceder a Figma](https://www.figma.com/community/file/1046957896877614265/MELT-APP)
 
-	[Persona Canvas](PersonaCanvas.pdf)
+[Persona Canvas](PersonaCanvas.pdf)
